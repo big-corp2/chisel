@@ -1,0 +1,364 @@
+{
+  "lockVersion" : 1,
+  "timestamp" : "2024-08-06T19:50:18.337646Z",
+  "configurations" : [
+    "compile",
+    "optional",
+    "provided",
+    "runtime",
+    "scalafix",
+    "test"
+  ],
+  "dependencies" : [
+    {
+      "org" : "com.github.scopt",
+      "name" : "scopt_2.13",
+      "version" : "4.1.0",
+      "artifacts" : [
+        {
+          "name" : "scopt_2.13.jar",
+          "hash" : "sha1:db670826c344b5c861620b0e329d86d2f9868285"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "com.lihaoyi",
+      "name" : "geny_2.13",
+      "version" : "1.1.0",
+      "artifacts" : [
+        {
+          "name" : "geny_2.13.jar",
+          "hash" : "sha1:19bca2a2446743c7520d3e171b1232b1da789cf8"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "com.lihaoyi",
+      "name" : "os-lib_2.13",
+      "version" : "0.10.0",
+      "artifacts" : [
+        {
+          "name" : "os-lib_2.13.jar",
+          "hash" : "sha1:f42223f6496bad51028198bae62f6fbd433ca291"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "com.lihaoyi",
+      "name" : "ujson_2.13",
+      "version" : "3.3.1",
+      "artifacts" : [
+        {
+          "name" : "ujson_2.13.jar",
+          "hash" : "sha1:a8a34de3466dec81e0eb177b3ed3b11baff22848"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "com.lihaoyi",
+      "name" : "upack_2.13",
+      "version" : "3.3.1",
+      "artifacts" : [
+        {
+          "name" : "upack_2.13.jar",
+          "hash" : "sha1:f4311f844500a009d7f62e965086de17344a5241"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "com.lihaoyi",
+      "name" : "upickle-core_2.13",
+      "version" : "3.3.1",
+      "artifacts" : [
+        {
+          "name" : "upickle-core_2.13.jar",
+          "hash" : "sha1:5cfa517b1f67b23be103bf03d62a3b4168fc88d7"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "com.lihaoyi",
+      "name" : "upickle-implicits_2.13",
+      "version" : "3.3.1",
+      "artifacts" : [
+        {
+          "name" : "upickle-implicits_2.13.jar",
+          "hash" : "sha1:69d66b5db4bee87ca9a0139b6b05d2bb8010774d"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "com.lihaoyi",
+      "name" : "upickle_2.13",
+      "version" : "3.3.1",
+      "artifacts" : [
+        {
+          "name" : "upickle_2.13.jar",
+          "hash" : "sha1:f255616eeebeaf55b4548693cf625094335a42dd"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "com.thoughtworks.paranamer",
+      "name" : "paranamer",
+      "version" : "2.8",
+      "artifacts" : [
+        {
+          "name" : "paranamer.jar",
+          "hash" : "sha1:619eba74c19ccf1da8ebec97a2d7f8ba05773dd6"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "io.github.alexarchambault",
+      "name" : "data-class_2.13",
+      "version" : "0.2.6",
+      "artifacts" : [
+        {
+          "name" : "data-class_2.13.jar",
+          "hash" : "sha1:c59609aca7d1f7ac7b74373af88b765820a3f3fd"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "org.apache.commons",
+      "name" : "commons-lang3",
+      "version" : "3.14.0",
+      "artifacts" : [
+        {
+          "name" : "commons-lang3.jar",
+          "hash" : "sha1:1ed471194b02f2c6cb734a0cd6f6f107c673afae"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "org.apache.commons",
+      "name" : "commons-text",
+      "version" : "1.12.0",
+      "artifacts" : [
+        {
+          "name" : "commons-text.jar",
+          "hash" : "sha1:66aa90dc099701c4d3b14bd256c328f592ccf0d6"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "org.chipsalliance",
+      "name" : "chisel-macros_2.13",
+      "version" : "0.0.0+6015-e6df4cf0+20240806-1550-SNAPSHOT",
+      "artifacts" : [
+      ],
+      "configurations" : [
+        "compile",
+        "optional",
+        "provided",
+        "runtime",
+        "scalafix",
+        "test"
+      ]
+    },
+    {
+      "org" : "org.chipsalliance",
+      "name" : "firrtl_2.13",
+      "version" : "0.0.0+6015-e6df4cf0+20240806-1550-SNAPSHOT",
+      "artifacts" : [
+      ],
+      "configurations" : [
+        "compile",
+        "optional",
+        "provided",
+        "runtime",
+        "scalafix",
+        "test"
+      ]
+    },
+    {
+      "org" : "org.json4s",
+      "name" : "json4s-ast_2.13",
+      "version" : "4.0.7",
+      "artifacts" : [
+        {
+          "name" : "json4s-ast_2.13.jar",
+          "hash" : "sha1:ed5f5779d939cd30b052adfef049032491bb258c"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "org.json4s",
+      "name" : "json4s-core_2.13",
+      "version" : "4.0.7",
+      "artifacts" : [
+        {
+          "name" : "json4s-core_2.13.jar",
+          "hash" : "sha1:309c43ab95fb94afe085aed2591e47771c78cec9"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "org.json4s",
+      "name" : "json4s-native-core_2.13",
+      "version" : "4.0.7",
+      "artifacts" : [
+        {
+          "name" : "json4s-native-core_2.13.jar",
+          "hash" : "sha1:1b8b6a8f66f15028119ea205eb5d92e2ba7f15ca"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "org.json4s",
+      "name" : "json4s-native_2.13",
+      "version" : "4.0.7",
+      "artifacts" : [
+        {
+          "name" : "json4s-native_2.13.jar",
+          "hash" : "sha1:d70522c2f241a3122bd41c3c9caf640c40db9649"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "org.json4s",
+      "name" : "json4s-scalap_2.13",
+      "version" : "4.0.7",
+      "artifacts" : [
+        {
+          "name" : "json4s-scalap_2.13.jar",
+          "hash" : "sha1:2a5f4082412c102cea496250491155ed7c8a56ec"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "org.scala-lang",
+      "name" : "scala-library",
+      "version" : "2.13.14",
+      "artifacts" : [
+        {
+          "name" : "scala-library.jar",
+          "hash" : "sha1:f8b4afe89abe48ca670f620c7da89b71f93e6546"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "org.scala-lang",
+      "name" : "scala-reflect",
+      "version" : "2.13.14",
+      "artifacts" : [
+        {
+          "name" : "scala-reflect.jar",
+          "hash" : "sha1:8e275fefb2a01e178db2cdfebb2181062a790b82"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "org.scala-lang.modules",
+      "name" : "scala-parallel-collections_2.13",
+      "version" : "1.0.4",
+      "artifacts" : [
+        {
+          "name" : "scala-parallel-collections_2.13.jar",
+          "hash" : "sha1:9846d1ed01f24e90d7f9495987033b8274835431"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    }
+  ]
+}

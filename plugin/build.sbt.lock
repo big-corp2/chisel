@@ -1,0 +1,110 @@
+{
+  "lockVersion" : 1,
+  "timestamp" : "2024-08-06T19:50:18.190909Z",
+  "configurations" : [
+    "compile",
+    "optional",
+    "provided",
+    "runtime",
+    "scalafix",
+    "test"
+  ],
+  "dependencies" : [
+    {
+      "org" : "io.github.java-diff-utils",
+      "name" : "java-diff-utils",
+      "version" : "4.12",
+      "artifacts" : [
+        {
+          "name" : "java-diff-utils.jar",
+          "hash" : "sha1:1a712a91324d566eef39817fc5c9980eb10c21db"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "net.java.dev.jna",
+      "name" : "jna",
+      "version" : "5.14.0",
+      "artifacts" : [
+        {
+          "name" : "jna.jar",
+          "hash" : "sha1:67bf3eaea4f0718cb376a181a629e5f88fa1c9dd"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "org.jline",
+      "name" : "jline",
+      "version" : "3.25.1",
+      "artifacts" : [
+        {
+          "name" : "jline.jar",
+          "hash" : "sha1:3d5c848825ffca5d798e6fc2987ac573bd424a1b"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "org.scala-lang",
+      "name" : "scala-compiler",
+      "version" : "2.13.14",
+      "artifacts" : [
+        {
+          "name" : "scala-compiler.jar",
+          "hash" : "sha1:b368b28b93d90f61b1aa00506a4935aa6f69b960"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "org.scala-lang",
+      "name" : "scala-library",
+      "version" : "2.13.14",
+      "artifacts" : [
+        {
+          "name" : "scala-library.jar",
+          "hash" : "sha1:f8b4afe89abe48ca670f620c7da89b71f93e6546"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    },
+    {
+      "org" : "org.scala-lang",
+      "name" : "scala-reflect",
+      "version" : "2.13.14",
+      "artifacts" : [
+        {
+          "name" : "scala-reflect.jar",
+          "hash" : "sha1:8e275fefb2a01e178db2cdfebb2181062a790b82"
+        }
+      ],
+      "configurations" : [
+        "compile",
+        "runtime",
+        "test"
+      ]
+    }
+  ]
+}
