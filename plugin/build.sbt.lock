@@ -1,6 +1,6 @@
 {
   "lockVersion" : 1,
-  "timestamp" : "2024-08-06T19:50:18.190909Z",
+  "timestamp" : "2024-08-11T03:50:34.249823Z",
   "configurations" : [
     "compile",
     "optional",
@@ -11,29 +11,13 @@
   ],
   "dependencies" : [
     {
-      "org" : "io.github.java-diff-utils",
-      "name" : "java-diff-utils",
-      "version" : "4.12",
-      "artifacts" : [
-        {
-          "name" : "java-diff-utils.jar",
-          "hash" : "sha1:1a712a91324d566eef39817fc5c9980eb10c21db"
-        }
-      ],
-      "configurations" : [
-        "compile",
-        "runtime",
-        "test"
-      ]
-    },
-    {
       "org" : "net.java.dev.jna",
       "name" : "jna",
-      "version" : "5.14.0",
+      "version" : "5.9.0",
       "artifacts" : [
         {
           "name" : "jna.jar",
-          "hash" : "sha1:67bf3eaea4f0718cb376a181a629e5f88fa1c9dd"
+          "hash" : "sha1:8f503e6d9b500ceff299052d6be75b38c7257758"
         }
       ],
       "configurations" : [
@@ -45,11 +29,11 @@
     {
       "org" : "org.jline",
       "name" : "jline",
-      "version" : "3.25.1",
+      "version" : "3.21.0",
       "artifacts" : [
         {
           "name" : "jline.jar",
-          "hash" : "sha1:3d5c848825ffca5d798e6fc2987ac573bd424a1b"
+          "hash" : "sha1:2bf6f2311356f309fda0412e9389d2499346b5a1"
         }
       ],
       "configurations" : [
@@ -61,11 +45,11 @@
     {
       "org" : "org.scala-lang",
       "name" : "scala-compiler",
-      "version" : "2.13.14",
+      "version" : "2.13.8",
       "artifacts" : [
         {
           "name" : "scala-compiler.jar",
-          "hash" : "sha1:b368b28b93d90f61b1aa00506a4935aa6f69b960"
+          "hash" : "sha1:dc45b9539f8f3b850baf3debc1fc7d1b4a0e62af"
         }
       ],
       "configurations" : [
@@ -77,11 +61,11 @@
     {
       "org" : "org.scala-lang",
       "name" : "scala-library",
-      "version" : "2.13.14",
+      "version" : "2.13.8",
       "artifacts" : [
         {
           "name" : "scala-library.jar",
-          "hash" : "sha1:f8b4afe89abe48ca670f620c7da89b71f93e6546"
+          "hash" : "sha1:5a865f03a794b27e6491740c4c419a19e4511a3d"
         }
       ],
       "configurations" : [
@@ -93,11 +77,11 @@
     {
       "org" : "org.scala-lang",
       "name" : "scala-reflect",
-      "version" : "2.13.14",
+      "version" : "2.13.8",
       "artifacts" : [
         {
           "name" : "scala-reflect.jar",
-          "hash" : "sha1:8e275fefb2a01e178db2cdfebb2181062a790b82"
+          "hash" : "sha1:994b004d041b18724ec298a135c37e7817d369ec"
         }
       ],
       "configurations" : [

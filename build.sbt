@@ -34,7 +34,7 @@ emitLatestVersion := {
 lazy val minimalSettings = Seq(
   organization := "org.chipsalliance",
   scalacOptions := Seq("-deprecation", "-feature"),
-  scalaVersion := "2.13.14"
+  scalaVersion := "2.13.8"
 )
 
 lazy val commonSettings = minimalSettings ++ Seq(
